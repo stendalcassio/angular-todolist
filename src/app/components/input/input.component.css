@@ -1,0 +1,10 @@
+.container__input input {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: #F2EEFE;
+  width: 350px;
+  margin-bottom: 15px;
+}
+.container__input input:focus {
+  outline: none;
+}

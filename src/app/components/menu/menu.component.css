@@ -1,0 +1,32 @@
+.menu-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.menu-container__logo img {
+  width: 100px;
+  margin-left: 3.5rem;
+  cursor: pointer;
+}
+
+.menu-container__links ul {
+  display: flex;
+  margin-right: 3.5rem;
+}
+
+.menu-container__links li {
+  margin-right: 3rem;
+  font-weight: 700;
+}
+
+.menu-container__links li > a {
+  color: #7E57C2;
+}
+
+.menu-container__links li>a:hover {
+  color: #633ba7
+}
+

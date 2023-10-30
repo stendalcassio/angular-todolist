@@ -1,17 +1,11 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-index',
-  templateUrl: './index.component.html',
-  styleUrls: ['./index.component.css']
+  selector: 'app-input',
+  templateUrl: './input.component.html',
+  styleUrls: ['./input.component.css']
 })
-export class IndexComponent implements OnInit {
-  @Input()
-  textTitle: string = "";
-  @Input()
-  subtitleText: string = ""
-  @Input()
-  subtitleSpanText: string = "";
+export class InputComponent implements OnInit {
   @Input()
   labelText: string = ''
   @Input()
@@ -24,8 +18,6 @@ export class IndexComponent implements OnInit {
   inputPlaceholder: string = '';
   @Input()
   inputType: string = '';
-  @Input()
-  buttonText: string = '';
 
   constructor() { }
 

@@ -1,1 +1,28 @@
-<p>index works!</p>
+<div class="container__login">
+  <div class="container__infos">
+    <app-title textTitle="Sign In"></app-title>
+    <app-sub-title
+      subtitleSpanText="register here"
+      routerLink="/register"
+      subtitleText="dont'have"
+    ></app-sub-title>
+  </div>
+  <div class="container__forms">
+    <form class="container__input__forms">
+      <app-input
+        inputType="text"
+        inputPlaceholder="Enter Username"
+        inputName="user"
+        inputId="user"
+      ></app-input>
+      <app-input
+        inputType="password"
+        inputPlaceholder="Enter Password"
+        inputName="password"
+        inputId="password"
+      ></app-input>
+      <a routerLink="/"><p>Forgot password?</p></a>
+      <app-button routerLink="/todolist-app" buttonText="Login"></app-button>
+    </form>
+  </div>
+</div>

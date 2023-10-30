@@ -1,0 +1,15 @@
+.todolist__container {
+  background-color: #eeeef3;
+  width: 80%;
+  height: 700px;
+  border-radius: 15px;
+
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.todolist__container h1 > span {
+  color: #7E57C2;
+}

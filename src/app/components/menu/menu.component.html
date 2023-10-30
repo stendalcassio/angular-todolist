@@ -1,0 +1,14 @@
+<div class="menu-container">
+  <div class="menu-container__logo">
+    <a routerLink="/"> <img src="/assets/logo.svg" alt="logo" /></a>
+  </div>
+  <div class="menu-container__links">
+    <ul>
+      <li *ngIf="!isOnTodoListAppRoute()"><a routerLink="/">Sign In</a></li>
+      <li *ngIf="!isOnTodoListAppRoute()">
+        <a routerLink="/register">Register</a>
+      </li>
+      <li *ngIf="isOnTodoListAppRoute()"><a routerLink="/">Sign Out</a></li>
+    </ul>
+  </div>
+</div>

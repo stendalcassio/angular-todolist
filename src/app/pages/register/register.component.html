@@ -1,1 +1,33 @@
-<p>register works!</p>
+<div class="container__login">
+  <div class="container__infos">
+    <app-title textTitle="Sign Up"></app-title>
+    <app-sub-title
+      subtitleSpanText="login here"
+      routerLink="/"
+      subtitleText="already have"
+    ></app-sub-title>
+  </div>
+  <div class="container__forms">
+    <form class="container__input__forms">
+      <app-input
+        inputType="text"
+        inputPlaceholder="Enter Username"
+        inputName="user"
+        inputId="user"
+      ></app-input>
+      <app-input
+        inputType="password"
+        inputPlaceholder="Enter Password"
+        inputName="password"
+        inputId="password"
+      ></app-input>
+      <app-input
+        inputType="password"
+        inputPlaceholder="Confirm Password"
+        inputName="confirmPassword"
+        inputId="confirmPassword"
+      ></app-input>
+      <app-button buttonText="Sign up"></app-button>
+    </form>
+  </div>
+</div>
