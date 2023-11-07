@@ -5,11 +5,65 @@
   border-radius: 15px;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
   margin-bottom: 15px;
 }
 
+.todolist__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
 .todolist__container h1 > span {
   color: #7E57C2;
+}
+
+.todolist__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todolist__input > input {
+  width: 450px;
+  height: 3rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #7E57C2;
+}
+
+.todolist__input > button > img {
+  cursor: pointer;
+  width: 30px;
+}
+
+.todolist__input input::placeholder {
+  color: #7E57C2;
+}
+
+.todolist__tasks {
+  display: flex;
+  margin: 3rem auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  margin-bottom: -1rem;
+}
+
+.todolist__tasks__title > p {
+  font-weight: 400;
+}
+
+.todolist__tasks__icons > span {
+  padding: 1rem;
+}
+
+.todolist__tasks__icons > span > img {
+  width: 18px;
+  cursor: pointer;
 }
